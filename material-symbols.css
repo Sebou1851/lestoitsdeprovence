@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'Material Symbols Sharp';
+    font-style: normal;
+    font-weight: 100 700;
+    src: url(fonts/material-symbols/MaterialIconsSharp-Regular.woff2) format('woff2'),
+    url(fonts/material-symbols/MaterialIconsSharp-Regular.eot) format("eot"),
+    url(fonts/material-symbols/MaterialSymbolsSharp-Regular.svg) format("svg"),
+    url(fonts/material-symbols/MaterialSymbolsSharp-Regular.ttf) format("ttf"),
+    url(fonts/material-symbols/MaterialSymbolsSharp-Regular.woff) format("woff");
+}
+
+.material-symbols-sharp {
+    font-family: 'Material Symbols Sharp';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+.material-symbols-sharp.danger-info-circle, .material-symbols-sharp.warning-info-circle {
+    font-size: 35px;
+    font-variation-settings: 'FILL' 1,
+    'wght' 700,
+    'GRAD' 0,
+    'opsz' 48;
+}
+
+.material-symbols-sharp.icon-success, .material-symbols-sharp.icon-error {
+    font-variation-settings: 'FILL' 1,
+    'wght' 700,
+    'GRAD' 0,
+    'opsz' 48;
+}
+
+.material-symbols-sharp.signature-icon {
+    font-size: 30px;
+    font-variation-settings: 'FILL' 1,
+    'wght' 700,
+    'GRAD' 0,
+    'opsz' 48;
+}
+
+.material-symbols-sharp.send-mail {
+    font-variation-settings: 'FILL' 1,
+    'wght' 700,
+    'GRAD' 0,
+    'opsz' 48;
+}
+
+.material-symbols-sharp.text-white.help-stat {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 27px;
+    font-variation-settings: 'FILL' 0,
+    'wght' 700,
+    'GRAD' 0,
+    'opsz' 48;
+}
+
+/* Google icons */
+.material-symbols-sharp {
+    vertical-align: middle;
+}
+
+.icon-filled {
+    font-variation-settings: 'FILL' 1,
+    'wght' 700,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+icon.icon-nav-pills {
+    font-size: 27px;
+    margin-right: 5px;
+    vertical-align: bottom;
+    color: #656464;
+    font-variation-settings: 'FILL' 1,
+    'wght' 700,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+icon.icon-action-dossier {
+    font-size: 30px;
+    vertical-align: bottom;
+    margin-left: 5px;
+    font-variation-settings: 'FILL' 1,
+    'wght' 700,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+
+tooltip > span.material-symbols-sharp {
+    color: var(--bs-info);
+    font-size: 21px;
+    cursor: pointer;
+    font-variation-settings: 'FILL' 1,
+    'wght' 700,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+
+.btn-outline-danger:hover > tooltip > span.material-symbols-sharp.text-danger {
+    font-variation-settings: 'FILL' 0,
+    'wght' 700,
+    'GRAD' 200,
+    'opsz' 48;
+    color: white !important;
+}
+
+
+tooltip > span.material-symbols-sharp.text-white {
+    font-size: 23px;
+    font-variation-settings: 'FILL' 0,
+    'wght' 700,
+    'GRAD' 200,
+    'opsz' 48;
+}
+
+span.material-symbols-sharp {
+    font-size: 21px;
+}
+
+a.nav-link > span.material-symbols-sharp {
+    font-size: 24px !important;
+}
+
+.material-symbols-sharp.material-lg {
+    font-size: 60px;
+}
+.material-symbols-sharp.material-md {
+    font-size: 40px;
+}
